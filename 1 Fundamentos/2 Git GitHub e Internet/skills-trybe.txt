@@ -1,0 +1,10 @@
+
+O que irei aprender na Trybe:
+-UNIX
+-BASH
+-GIT
+-HTML
+-CSS
+-SOFT SKILLS
+-liderança
+-organizaçao do tempo
