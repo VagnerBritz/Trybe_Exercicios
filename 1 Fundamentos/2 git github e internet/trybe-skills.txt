@@ -5,3 +5,7 @@ unix
 javascript
 C#
 python
+CSS
+REACT
+SQL
+
