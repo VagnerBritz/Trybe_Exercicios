@@ -5,3 +5,4 @@ unix
 javascript
 CSS
 REACT
+SQL
