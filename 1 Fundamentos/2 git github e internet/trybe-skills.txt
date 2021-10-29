@@ -3,3 +3,6 @@ git
 github
 unix
 javascript
+CSS
+REACT
+SQL
