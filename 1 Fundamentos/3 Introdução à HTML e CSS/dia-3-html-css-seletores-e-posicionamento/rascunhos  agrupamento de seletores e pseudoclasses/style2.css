@@ -1,0 +1,32 @@
+.corprimaria {
+    background-color: green;
+}
+.corsegundaria {
+    background-color: red;
+}
+.corcomplementar {
+    background-color: blue;
+    /* padding: 40px; */
+    height: 80px;
+
+}
+.corescura {
+    background-color: rgb(68, 66, 66);
+}
+.corclara {
+    background-color: khaki;
+}
+h3 {
+    padding: 25px;
+    margin: 0%;
+}
+.corprimaria, .corcomplementar, .corclara {
+    font-style: italic;
+}
+h3:hover {
+    border: 5px solid rgb(0, 0, 0);
+    /* border-radius: 15%;  */
+    /* border radius fiz por conta */
+
+    
+}
