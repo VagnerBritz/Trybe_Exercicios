@@ -47,16 +47,16 @@ else {
 }
 
 //Questão 3
-console.log("Questão 3 - Maior de 3 números\n");*/
+console.log("Questão 3 - Maior de 3 números\n");
 const e = 188;
 const f = 183;
 const g = 183;
 
 //praticamente tudo poderia ser resumido nessas duas linhas abaixo mas....como é para treinar a lógica tbm..
-var maior = Math.max(e,f,g);
-console.log(maior);
-//*/
-/*if (e===f && e==g) {
+//var maior = Math.max(e,f,g);
+//console.log(maior);
+
+if (e===f && e==g) {
     console.log("Eles tem o mesmo valor");
 }
 else if (e>f && e>g) {
@@ -77,6 +77,30 @@ else if (f===g && f>e) {
 else {
     console.log("G e E são iguais e maiores que F")
 }
-*/
+
 //Questão 4
-console.log("Questão 4 - Maior de 3 números\n");
+console.log("Questão 4 - Positivo/negativo ou Zero?\n");
+const h = -5;
+if (h===0) {
+    console.log("Valor Zero");
+}
+else if (h>0) {
+    console.log("Valor Positivo");
+}
+else {
+    console.log("Valor Negativo");
+}
+
+//Questão 5
+console.log("Questão 5- ângulo internos de um triangulo\n");
+let angulo1 =50;
+let angulo2 =50;
+let angulo3 =80;
+let angulo =(angulo1+angulo2+angulo3);
+if (angulo ===180) {
+    console.log("É um triangulo... ");
+}
+else {
+    console.log("Erro! a soma dos ângulos tem que ser 180");
+}
+*/
