@@ -1,0 +1,14 @@
+body {
+    background-color: grey;
+}
+h1, p {
+    text-align: center;
+}
+li:hover {
+    background-color: rgb(210, 178, 240);
+}
+li:active {
+    color: white;
+}
+cd    
+}
