@@ -149,7 +149,7 @@ if (a4%2===0 || a5%2===0 || a6%2===0) {
 }
 else {
     console.log(!false)
-}*/
+}
 //10 - Escreva um programa que se inicie com dois valores em duas constantes diferentes: o custo de um produto e seu valor de venda. A partir dos valores, calcule quanto de lucro (valor de venda descontado o custo do produto) a empresa terá ao vender mil desses produtos.
 console.log("Questão 10");
 const CProd = 101;
@@ -163,3 +163,37 @@ else {
 let lucro = ((CVenda*qtde)-(CProd*1.2*qtde));
 console.log("Lucro de R$", lucro);
 }
+*/
+let salarioBruto = 10000;
+let salarioINSS=0;
+if  (salarioBruto <=1556.94) {
+    salarioINSS= salarioBruto*0.92;
+}
+else if (salarioBruto >=1556.94 && salarioBruto < 2594.92) {
+    salarioINSS= salarioBruto*0.91;
+}
+else if (salarioBruto >=2594.93 && salarioBruto <=5189.82) {
+    salarioINSS= salarioBruto*0.89;
+}
+else {
+    salarioINSS= salarioBruto-570.88;
+}
+
+console.log(salarioINSS);
+let salarioLiquido=0;
+if (salarioINSS< 1903.98) {
+    salarioLiquido=salarioINSS
+}
+else if (salarioINSS >=1903.98 && salarioINSS<=2594.92){
+    salarioLiquido = salarioINSS -(salarioINSS*0.075 -142.80);
+}
+else if (salarioINSS >=2826.66 && salarioINSS <=3751.05){
+    salarioLiquido = salarioINSS -(salarioINSS*0.15 -354.80);
+}
+else if (salarioINSS >=3751.06 && salarioINSS<=4664.68){
+    salarioLiquido = salarioINSS -(salarioINSS*0.225 -636.13);
+}
+else {
+    salarioLiquido= salarioINSS -(salarioINSS*0.275 -869.36);
+}
+console.log("Do teu salario de R$",salarioBruto," só sobrou os míseros: R$",salarioLiquido.toFixed(2));
