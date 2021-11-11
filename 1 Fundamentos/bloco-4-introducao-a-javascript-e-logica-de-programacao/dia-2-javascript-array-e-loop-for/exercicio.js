@@ -50,5 +50,42 @@ for (let index = 0; index < numbers.length; index+=1) {
     }
 }
 console.log("o maior número é o:",maiorN);
-*/
+
 //Questão 6
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let impares=[];
+for (let i = 0; i < numbers.length; i+=1) {
+    if (numbers[i]%2===1)
+    impares.push(numbers[i]);   
+}
+if (impares.length>=1) {
+    console.log("Foram encontrados",impares.length,"na array numbers");
+}
+else {
+    console.log("Nenhum valor encontrado");
+}
+
+//Questão 7
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let menor= 10000;
+for (let i = 0; i < numbers.length; i+=1) {
+    if (numbers[i]< menor)
+        menor=numbers[i];
+
+}
+console.log("O menor número é:",menor);
+*/
+//Questão 8 
+let numbers =[];
+for (let index = 1; index < 26; index+=1) {
+    numbers.push(index);  
+}
+
+//console.log(numbers);
+
+//Questão 9
+let resultado=[];
+for (let i = 0; i < numbers.length; i+=1) {
+    resultado.push(numbers[i]/2);
+}
+console.log(resultado);
