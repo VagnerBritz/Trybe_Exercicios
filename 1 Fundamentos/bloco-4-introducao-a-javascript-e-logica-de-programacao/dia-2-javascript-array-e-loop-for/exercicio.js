@@ -51,3 +51,4 @@ for (let index = 0; index < numbers.length; index+=1) {
 }
 console.log("o maior número é o:",maiorN);
 */
+//Questão 6
