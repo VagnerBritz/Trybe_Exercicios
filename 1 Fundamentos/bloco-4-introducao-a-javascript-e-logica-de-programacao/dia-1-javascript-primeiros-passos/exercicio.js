@@ -1,36 +1,41 @@
-/*console.log("Questão 1 - Aritmética básica\n");
+console.log("Questão 1 - Aritmética básica\n");
 
-const a = 120;
-const b = 45;
+//const a = 120;
+//const b = 45;
 
 // Programa 1 Adição
+function somarNumeros(a,b) {
 resultado = (a+b);
-console.log("A SOMA de ",a,"e", b, "é => ",resultado," !");
+ return console.log("A SOMA de ",a,"e", b, "é => ",resultado," !\n-----------------------------------------------");
 
-console.log("-----------------------------------------------");
+};
 
 // Programa 2 Subtração
+function subtrairNumeros(a,b) {
 resultado = (a-b);
-console.log("A SUBTRAÇÃO ",a,"e", b, "é => ",resultado," !");
-console.log("-----------------------------------------------");
+return console.log("A SUBTRAÇÃO ",a,"e", b, "é => ",resultado," !\n-----------------------------------------------");
+}
 
 // Programa 3 Multiplicação
+function multiplicarNumeros(a,b) {
 resultado = (a*b);
-console.log("A MULTIPLICAÇÃO de ",a,"e", b, "é => ",resultado," !");
-console.log("-----------------------------------------------");
+return console.log("A MULTIPLICAÇÃO de ",a,"e", b, "é => ",resultado," !\n-----------------------------------------------");
+}
 
 // Programa 4 Divisão
+function divisaoNumeros(a,b) {
 resultado = (a/b);
-console.log("A DIVISÃO de ",a,"e", b, "é => ",resultado," !");
-console.log("-----------------------------------------------");
+return console.log("A DIVISÃO de ",a,"e", b, "é => ",resultado," !\n-----------------------------------------------");
+}
 
 // Programa 5 Módulo(resto)
+function restoNumeros(a,b) {
 resultado = (a%b);
-console.log("O resto de ",a,"e", b, "é => ",resultado," !");
-console.log("-----------------------------------------------");
+return console.log("O resto de ",a,"e", b, "é => ",resultado," !\n-----------------------------------------------");
+}
 // 45 cabe 2x no 120 e sobra 30 o resto é 30, exatamente issa é a função do %. 
 
-//Questão 2
+/*//Questão 2
 console.log("Questão 2 - Maior de Dois números\n");
 
 const c = 25;
@@ -163,7 +168,7 @@ else {
 let lucro = ((CVenda*qtde)-(CProd*1.2*qtde));
 console.log("Lucro de R$", lucro);
 }
-*/
+
 let salarioBruto = 10000;
 let salarioINSS=0;
 if  (salarioBruto <=1556.94) {
@@ -197,3 +202,9 @@ else {
     salarioLiquido= salarioINSS -(salarioINSS*0.275 -869.36);
 }
 console.log("Do teu salario de R$",salarioBruto," só sobrou os míseros: R$",salarioLiquido.toFixed(2));
+*/
+somarNumeros(15,30);
+subtrairNumeros(45,60);
+multiplicarNumeros(12.5,40);
+divisaoNumeros(150, 12);
+restoNumeros(45,4);
