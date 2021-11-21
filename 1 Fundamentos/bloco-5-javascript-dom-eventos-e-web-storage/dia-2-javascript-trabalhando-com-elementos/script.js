@@ -58,3 +58,10 @@ let localEx8_1 = document.  querySelector('.list-item');
       numeroLi.innerText = numero;
       localEx8_1.appendChild(numeroLi);
  }
+
+// 9   Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2.
+// let local9 = document.querySelector('.main-content');
+//for (let index =0; index >3; index +=1) {
+//     let h3 = document.createElement('h3');
+//     local9.appendChild(h3);
+//}
